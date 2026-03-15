@@ -25,6 +25,28 @@ https://jsonplaceholder.typicode.com
 ## Tools
 Apache JMeter
 
+## Test Scenario
+
+Load testing scenario implemented in Apache JMeter.
+
+Configuration:
+
+Users: 100  
+Ramp-up period: 5 seconds  
+Loop count: 2  
+
+Test includes CRUD operations on the API:
+
+GET /users  
+GET /posts  
+GET /posts/{id}  
+GET /comments  
+
+POST /posts  
+PUT /posts/{id}  
+PATCH /posts/{id}  
+DELETE /posts/{id}
+
 ## Load Test Results
 
 ### Summary Report
