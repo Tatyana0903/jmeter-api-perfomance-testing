@@ -24,3 +24,14 @@ https://jsonplaceholder.typicode.com
 
 ## Tools
 Apache JMeter
+
+## Load Test Results
+
+### Summary Report
+![Summary Report](results/summary-report.png)
+
+### Active Threads Over Time
+![Threads](results/threads-over-time.png)
+
+### Throughput
+![Throughput](results/throughput.png)
