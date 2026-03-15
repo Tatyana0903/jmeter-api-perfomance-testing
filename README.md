@@ -47,6 +47,23 @@ PUT /posts/{id}
 PATCH /posts/{id}  
 DELETE /posts/{id}
 
+## How to Run the Test
+
+1. Install Apache JMeter
+2. Open the test plan:
+
+test-plan/api-test-plan.jmx
+
+3. Run the test using:
+
+100 virtual users  
+Ramp-up: 5 seconds  
+
+4. Review results using JMeter listeners:
+- Summary Report
+- Active Threads Over Time
+- Bytes Throughput Over Time
+
 ## Load Test Results
 
 ### Summary Report
